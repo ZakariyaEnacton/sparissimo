@@ -1,0 +1,27 @@
+.hero-banner-wrapper {
+  .swiper-pagination-bullet {
+    height: 2px;
+    width: 30px;
+    background: var(--secondary-text);
+  }
+  .swiper-pagination-bullet-active {
+    background: var(--white);
+  }
+  .pagination {
+    .hero-button-next {
+      top: 42%;
+      right: -25px;
+      z-index: 1;
+    }
+    .hero-button-prev {
+      top: 42%;
+      left: -25px;
+      z-index: 1;
+    }
+  }
+  .swiper-wrapper {
+    .swiper-slide {
+      border-radius: var(--border-radius-24);
+    }
+  }
+}

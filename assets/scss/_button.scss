@@ -6,14 +6,14 @@
       border-radius: $btn-radius;
       padding: 0.5rem 1.5rem;
       a {
-        color: var(--primary-color);
+        color: var(--primary-color) !important;
         font-weight: 500;
       }
     }
     .btn-sign-up {
       background-color: var(--primary-color);
       a {
-        color: var(--white);
+        color: var(--white) !important;
       }
     }
   }

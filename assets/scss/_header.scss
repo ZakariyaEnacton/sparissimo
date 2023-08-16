@@ -1,3 +1,16 @@
-.header-wrapper {
-  border-bottom: 1.5px solid $purple;
+header {
+  background: var(--white);
+  .header-wrapper {
+    border-bottom: 1.5px solid $purple;
+  }
+  .header-nav-links {
+    a {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .active {
+      color: var(--primary-color) !important;
+    }
+  }
 }
