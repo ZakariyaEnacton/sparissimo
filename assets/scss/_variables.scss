@@ -1,2 +1,17 @@
 :root {
+  --primary-color: #857cb5;
+  --secondary-text: #858585;
+  --border-radius-24: 24px;
+  --border-radius-30: 30px;
+  --border: 1.5px solid var(--primary-color);
+  --box-shadow-btn: 0px 24px 28px -24px rgba(133, 124, 181, 0.64);
+  --box-shadow-card: 0px 2px 5px 0px rgba(133, 124, 181, 0.6);
+  --purple-color: #d7d3e9;
+  --white: #fff;
 }
+
+$shadow-card: var(--box-shadow-card);
+$shadow-btn: var(--box-shadow-btn);
+$purple: var(--purple-color);
+$btn-radius: var(--border-radius-30);
+$card-radius: var(--border-radius-24);
