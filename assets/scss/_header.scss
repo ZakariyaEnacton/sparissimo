@@ -18,6 +18,21 @@ header {
   background: #faf8ff;
   .header-wrapper {
     border-bottom: 1.5px solid $purple;
+    .btn-wrapper {
+      .btn-sign-in {
+        &:hover {
+          background-color: #a59ecc;
+          color: var(--white) !important;
+          border: 1.5px solid #a59ecc;
+        }
+      }
+      .btn-sign-up {
+        &:hover {
+          background-color: #a59ecc !important;
+          border: 1.5px solid #a59ecc;
+        }
+      }
+    }
   }
   .header-nav-links {
     a {

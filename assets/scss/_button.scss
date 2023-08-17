@@ -1,3 +1,12 @@
+.btn {
+  border: var(--border);
+  border-radius: $btn-radius;
+  color: var(--primary-color) !important;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white) !important;
+}
 // .btn-wrapper {
 //   margin-left: 16px;
 //   ul {
