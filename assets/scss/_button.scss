@@ -1,29 +1,15 @@
 .btn {
-  border: var(--border);
+  border: var(--border) !important ;
   border-radius: $btn-radius;
-  color: var(--primary-color) !important;
 }
 .btn-primary {
   background-color: var(--primary-color);
   color: var(--white) !important;
 }
-// .btn-wrapper {
-//   margin-left: 16px;
-//   ul {
-//     li {
-//       border: var(--border);
-//       border-radius: $btn-radius;
-//       padding: 0.5rem 1.5rem;
-//       a {
-//         color: var(--primary-color) !important;
-//         font-weight: 500;
-//       }
-//     }
-//     .btn-sign-up {
-//       background-color: var(--primary-color);
-//       a {
-//         color: var(--white) !important;
-//       }
-//     }
-//   }
-// }
+.btn-outline-secondary {
+  &:hover {
+    background-color: #a59ecc;
+    color: var(--white) !important;
+    border: 1.5px solid #a59ecc !important;
+  }
+}

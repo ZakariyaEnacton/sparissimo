@@ -20,16 +20,19 @@ header {
     border-bottom: 1.5px solid $purple;
     .btn-wrapper {
       .btn-sign-in {
+        color: var(--primary-color) !important;
         &:hover {
           background-color: #a59ecc;
           color: var(--white) !important;
-          border: 1.5px solid #a59ecc;
+          border: 1.5px solid #a59ecc !important;
+          box-shadow: $shadow-btn;
         }
       }
       .btn-sign-up {
+        box-shadow: $shadow-btn;
         &:hover {
           background-color: #a59ecc !important;
-          border: 1.5px solid #a59ecc;
+          border: 1.5px solid #a59ecc !important;
         }
       }
     }
