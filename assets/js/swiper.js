@@ -40,3 +40,11 @@ var swiper = new Swiper(".deals-swiper", {
     prevEl: ".d-card-button-prev",
   },
 });
+var swiper = new Swiper(".earn-cb-swiper", {
+  spaceBetween: 30,
+  slidesPerView: 5,
+  navigation: {
+    // nextEl: ".d-card-button-next",
+    // prevEl: ".d-card-button-prev",
+  },
+});
