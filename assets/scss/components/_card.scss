@@ -1,13 +1,53 @@
-.card {
-  border-radius: $card-radius;
-  box-shadow: $shadow-card;
-  .card-image {
-    margin: auto;
-    border-bottom: 1.5px dashed $purple;
-    padding: 5px 5px 16px 5px;
+.card-wrapper {
+  position: relative;
+  .card-swiper {
+    padding-bottom: 1.5rem !important;
   }
-  .card-text {
-    color: var(--secondary-text);
-    font-size: 0.75rem;
+  .card {
+    border-radius: $card-radius;
+    box-shadow: $shadow-card;
+    padding: 1rem 0.625rem;
+    background-color: var(--white);
+    .card-image-wrapper {
+      border-bottom: 1.5px dashed $purple;
+      .card-image {
+        margin: auto;
+        padding: 0.313rem 0.313rem 1rem 0.313rem;
+        max-width: 8.25rem;
+      }
+    }
+    .card-body {
+      .card-text {
+        color: var(--secondary-text);
+        font-size: 0.75rem;
+        margin-bottom: 0.2rem;
+      }
+      .cb-text {
+        margin-bottom: 0;
+        color: var(--primary-color);
+        font-weight: 600;
+      }
+      .card-action {
+        .card-nav-btn {
+          background-color: var(--primary-color);
+          padding: 0.5rem 1.5rem;
+          border-radius: $btn-radius;
+          color: var(--white) !important;
+          box-shadow: $shadow-btn;
+        }
+      }
+    }
+  }
+  .pagination {
+    .card-button-next {
+      z-index: 1;
+      top: 35%;
+      right: -35px;
+    }
+    .card-button-prev {
+      z-index: 1;
+      top: 35%;
+      left: -35px;
+    }
   }
 }

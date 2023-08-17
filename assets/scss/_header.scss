@@ -1,5 +1,21 @@
 header {
-  background: var(--white);
+  .search-field-form {
+    .form-control {
+      border-radius: 30px !important;
+      border: 1px solid $purple !important;
+      position: relative;
+      &:focus {
+        box-shadow: $shadow-btn;
+      }
+    }
+    svg {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+    }
+  }
+  background: #faf8ff;
   .header-wrapper {
     border-bottom: 1.5px solid $purple;
   }
