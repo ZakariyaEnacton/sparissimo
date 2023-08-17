@@ -1,6 +1,7 @@
 .card-wrapper {
   position: relative;
-  .card-swiper {
+  .card-swiper,
+  .deals-swiper {
     padding-bottom: 1.5rem !important;
   }
   .card {
@@ -22,11 +23,6 @@
         font-size: 0.75rem;
         margin-bottom: 0.2rem;
       }
-      .cb-text {
-        margin-bottom: 0;
-        color: var(--primary-color);
-        font-weight: 600;
-      }
     }
   }
   .pagination {
@@ -41,4 +37,17 @@
       left: -35px;
     }
   }
+}
+.cb-text {
+  margin-bottom: 0;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.header-img {
+  max-width: 90px;
+  margin: 0 auto;
+}
+.card-header {
+  background-color: var(--white);
+  border-bottom: none;
 }

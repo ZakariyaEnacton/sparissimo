@@ -1,0 +1,56 @@
+.top-deals {
+  .card-wrapper {
+    .deals-swiper {
+      padding-top: 1.5rem !important;
+    }
+    .card {
+      padding: 0;
+      .card-header {
+        border-top-left-radius: $card-radius;
+        border-top-right-radius: $card-radius;
+      }
+      .card-title {
+        font-size: 1rem;
+      }
+      .cb-offer-text {
+        font-size: 0.875rem;
+      }
+      .actual-price {
+        font-size: 0.75rem;
+        color: var(--secondary-text);
+        text-decoration: line-through;
+        font-weight: 400;
+      }
+      .offer-price {
+        font-weight: 700;
+        color: #101010;
+      }
+      .card-badge {
+        right: 28px;
+        background-color: var(--purple-color);
+        color: #101010;
+        font-size: 0.75rem;
+        top: -2.5%;
+      }
+    }
+    .pagination {
+      .d-card-button-next {
+        svg {
+          z-index: 1;
+          position: absolute;
+          transform: translatey(-50%);
+          top: 50%;
+          right: -40px;
+        }
+      }
+      .d-card-button-prev {
+        svg {
+          z-index: 1;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 50%;
+        }
+      }
+    }
+  }
+}
