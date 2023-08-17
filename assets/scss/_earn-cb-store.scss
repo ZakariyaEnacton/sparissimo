@@ -1,0 +1,50 @@
+.earn-cb-store {
+  .card-wrapper {
+    .earn-cb-swiper {
+      padding-top: 1.5rem !important;
+      padding-bottom: 1.5rem !important;
+    }
+    .card {
+      .card-image {
+        img {
+          border-top-left-radius: 24px;
+          border-top-right-radius: 24px;
+        }
+      }
+      .card-title {
+        font-size: 1.25rem;
+        line-height: 20px;
+      }
+
+      .cb-text {
+        font-size: 0.875rem;
+      }
+      .card-badge {
+        right: 28px;
+        background-color: var(--purple-color);
+        color: #101010;
+        font-size: 0.75rem;
+        top: -3.5%;
+      }
+    }
+  }
+  .pagination {
+    .e-card-button-next {
+      svg {
+        z-index: 1;
+        position: absolute;
+        transform: translatey(-50%);
+        top: 50%;
+        right: -40px;
+      }
+    }
+    .e-card-button-prev {
+      svg {
+        z-index: 1;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+      }
+    }
+  }
+}

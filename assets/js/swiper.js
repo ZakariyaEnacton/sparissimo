@@ -44,7 +44,7 @@ var swiper = new Swiper(".earn-cb-swiper", {
   spaceBetween: 30,
   slidesPerView: 5,
   navigation: {
-    // nextEl: ".d-card-button-next",
-    // prevEl: ".d-card-button-prev",
+    nextEl: ".e-card-button-next",
+    prevEl: ".e-card-button-prev",
   },
 });
