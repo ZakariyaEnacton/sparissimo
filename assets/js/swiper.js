@@ -2,6 +2,7 @@ var swiper = new Swiper(".banner-swwiper", {
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
   navigation: {
     nextEl: ".hero-button-next",
@@ -26,10 +27,6 @@ var swiper = new Swiper(".grid-card-swiper", {
     fill: "row",
   },
   spaceBetween: 30,
-  // navigation: {
-  //   nextEl: ".card-button-next",
-  //   prevEl: ".card-button-prev",
-  // },
 });
 
 var swiper = new Swiper(".deals-swiper", {
