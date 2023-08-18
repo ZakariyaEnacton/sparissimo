@@ -1,7 +1,7 @@
-.top-deals {
+.cb-offers {
   .card-wrapper {
-    .deals-swiper {
-      padding-top: 1.5rem !important;
+    .cb-offers-swiper {
+      padding-bottom: 1.5rem !important;
     }
     .card {
       padding: 0;
@@ -12,30 +12,19 @@
       }
       .card-title {
         font-size: 1rem;
+        line-height: 1.25rem;
       }
-      .cb-offer-text {
+      .cb-text {
         font-size: 0.875rem;
       }
-      .actual-price {
+      .due-date {
         font-size: 0.75rem;
-        color: var(--secondary-text);
-        text-decoration: line-through;
-        font-weight: 400;
-      }
-      .offer-price {
-        font-weight: 700;
-        color: #101010;
-      }
-      .card-badge {
-        right: 28px;
-        background-color: var(--purple-color);
-        color: #101010;
-        font-size: 0.75rem;
-        top: -2.5%;
+        line-height: 1.25rem;
+        font-weight: 600;
       }
     }
     .pagination {
-      .d-card-button-next {
+      .cb-card-button-next {
         svg {
           z-index: 1;
           position: absolute;
@@ -44,7 +33,7 @@
           right: -40px;
         }
       }
-      .d-card-button-prev {
+      .cb-card-button-prev {
         svg {
           z-index: 1;
           position: absolute;

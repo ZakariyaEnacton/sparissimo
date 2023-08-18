@@ -48,3 +48,11 @@ var swiper = new Swiper(".earn-cb-swiper", {
     prevEl: ".e-card-button-prev",
   },
 });
+var swiper = new Swiper(".cb-offers-swiper", {
+  spaceBetween: 30,
+  slidesPerView: 5,
+  navigation: {
+    nextEl: ".cb-card-button-next",
+    prevEl: ".cb-card-button-prev",
+  },
+});
