@@ -1,5 +1,5 @@
 var swiper = new Swiper(".banner-swwiper", {
-  spaceBetween: 30,
+  // spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

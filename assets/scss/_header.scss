@@ -41,6 +41,9 @@ header {
     a {
       padding-left: 0;
       padding-right: 0;
+      &:hover {
+        color: var(--primary-color) !important;
+      }
     }
 
     .active {

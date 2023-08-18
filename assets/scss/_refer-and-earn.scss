@@ -1,18 +1,47 @@
+@import "./config";
 .refer-and-earn-section {
   .share-and-earn {
-    border-radius: 2.5rem;
-    background-color: #c9d5ff;
-    flex-direction: column;
-    .details-wrapper {
-      .get-text {
-        font-size: 2rem;
-      }
-      .earn-text {
-        font-size: 1.125rem;
-      }
-      .time-text {
-        font-size: 1.5rem;
+    @include color(#c9d5ff);
+  }
+  .never-miss {
+    @include color(#ffd8e3);
+    ul {
+      li {
+        margin-bottom: 1.25rem;
       }
     }
+  }
+  .refer-and-earn {
+    @include color(#ffefb5);
+  }
+  .details-wrapper {
+    .get-text {
+      font-size: 2rem;
+    }
+    .earn-text {
+      font-size: 1.125rem;
+    }
+    .time-text {
+      font-size: 1.5rem;
+    }
+  }
+  .action-wrapper {
+    .btn-primary {
+      background-color: var(--white);
+      border: none !important;
+      color: #101010 !important;
+      &:hover {
+        background-color: #a59ecc;
+      }
+    }
+  }
+  .share-and-earn-badge {
+    @include bagdeBorder(#c9d5ff);
+  }
+  .refer-and-earn-badge {
+    @include bagdeBorder(#ffefb5);
+  }
+  .never-miss-badge {
+    @include bagdeBorder(#ffd8e3);
   }
 }
