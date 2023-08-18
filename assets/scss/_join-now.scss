@@ -1,0 +1,14 @@
+.join-now {
+  .join-now-content {
+    .join-now-title1 {
+      @include joinHead(#101010, 300);
+    }
+    .join-now-title2 {
+      @include joinHead(var(--primary-color), 600);
+    }
+    .join-now-desc {
+      font-size: 1.25rem;
+      color: var(--secondary-text);
+    }
+  }
+}

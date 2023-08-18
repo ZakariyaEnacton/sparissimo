@@ -14,3 +14,10 @@
   font-size: 1.125rem;
   font-weight: 500;
 }
+
+@mixin joinHead($color, $weight) {
+  color: $color;
+  font-weight: $weight;
+  font-size: 2rem;
+  text-align: center;
+}
