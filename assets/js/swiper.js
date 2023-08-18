@@ -27,6 +27,13 @@ var swiper = new Swiper(".grid-card-swiper", {
     fill: "row",
   },
   spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    nextEl: ".os-button-next",
+    prevEl: ".os-button-prev",
+  },
 });
 
 var swiper = new Swiper(".deals-swiper", {

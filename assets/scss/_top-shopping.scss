@@ -1,0 +1,29 @@
+.top-shopping-store {
+  .card-wrapper {
+    .grid-card-swiper {
+      padding-bottom: 2rem;
+    }
+    .swiper-slide {
+      height: 0% !important;
+    }
+    .pagination {
+      .os-button-next {
+        svg {
+          z-index: 1;
+          position: absolute;
+          transform: translatey(-50%);
+          top: 45%;
+          right: -40px;
+        }
+      }
+      .os-button-prev {
+        svg {
+          z-index: 1;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 45%;
+        }
+      }
+    }
+  }
+}
