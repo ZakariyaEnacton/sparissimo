@@ -23,7 +23,7 @@ var swiper = new Swiper(".grid-card-swiper", {
   slidesPerView: 2,
   slidesPerColumn: 2,
   grid: {
-    row: 2,
+    rows: 2,
     fill: "row",
   },
   spaceBetween: 30,

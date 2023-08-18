@@ -10,5 +10,37 @@
       font-size: 1.25rem;
       color: var(--secondary-text);
     }
+    .user-label-wrapper {
+      .user-btn {
+        color: var(--primary-color) !important;
+        &:hover {
+          color: #a59ecc !important;
+        }
+      }
+    }
+  }
+  .join-form-wrapper {
+    max-width: 1180px;
+    background-color: var(--white);
+    border-radius: $card-radius;
+    box-shadow: $shadow-card;
+
+    .form-title {
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      max-width: 550px;
+    }
+    .form-desc {
+      color: var(--secondary-text);
+    }
+    .join-email {
+      max-width: 290px;
+      border-radius: $btn-radius;
+      border: 1px solid $purple !important;
+      &:focus {
+        box-shadow: $shadow-btn;
+      }
+    }
   }
 }

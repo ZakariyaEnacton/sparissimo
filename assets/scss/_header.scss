@@ -1,7 +1,7 @@
 header {
   .search-field-form {
     .form-control {
-      border-radius: 30px !important;
+      border-radius: $btn-radius !important;
       border: 1px solid $purple !important;
       position: relative;
       &:focus {
@@ -41,6 +41,7 @@ header {
     a {
       padding-left: 0;
       padding-right: 0;
+      font-weight: 500;
       &:hover {
         color: var(--primary-color) !important;
       }
