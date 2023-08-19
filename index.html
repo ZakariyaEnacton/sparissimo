@@ -25,62 +25,70 @@
       <div class="container">
         <div class="row me-0 ms-0 w-100">
           <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="col-2">
               <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="./assets/images/logo.png" alt="logo">
               </a>
             </div>
-            <div class="col-10 d-flex justify-content-end">
-              <div class="header-search pe-4">
-                <div class="input-group d-flex gap-3">
-                  <form class="form-inline search-field-form my-2">
-                    <div class="position-relative">
-                      <input type="text" class="form-control" placeholder="Search">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
-                        <path
-                          d="M21.6597 19.0942L17.7564 15.3287C19.0158 13.7764 19.6991 11.8595 19.6966 9.88603C19.6966 8.12854 19.1579 6.41052 18.1487 4.94922C17.1396 3.48792 15.7052 2.34897 14.027 1.67641C12.3488 1.00385 10.5022 0.827877 8.72059 1.17075C6.93903 1.51362 5.30256 2.35993 4.01812 3.60266C2.73369 4.84539 1.85898 6.42873 1.5046 8.15245C1.15023 9.87617 1.3321 11.6629 2.02724 13.2866C2.72237 14.9103 3.89953 16.2981 5.40987 17.2745C6.9202 18.2509 8.69588 18.7721 10.5123 18.7721C12.552 18.7745 14.5333 18.1134 16.1377 16.8949L20.0295 20.6714C20.1362 20.7755 20.2632 20.8582 20.4031 20.9146C20.543 20.971 20.693 21 20.8446 21C20.9961 21 21.1462 20.971 21.2861 20.9146C21.426 20.8582 21.553 20.7755 21.6597 20.6714C21.7673 20.5682 21.8527 20.4453 21.911 20.31C21.9693 20.1746 21.9993 20.0294 21.9993 19.8828C21.9993 19.7362 21.9693 19.591 21.911 19.4556C21.8527 19.3203 21.7673 19.1974 21.6597 19.0942ZM3.62418 9.88603C3.62418 8.56791 4.02817 7.2794 4.78505 6.18342C5.54193 5.08745 6.61771 4.23324 7.87636 3.72882C9.135 3.22439 10.52 3.09241 11.8562 3.34957C13.1923 3.60672 14.4197 4.24145 15.383 5.1735C16.3463 6.10555 17.0024 7.29306 17.2681 8.58585C17.5339 9.87864 17.3975 11.2186 16.8762 12.4364C16.3548 13.6542 15.472 14.6951 14.3392 15.4274C13.2064 16.1597 11.8747 16.5505 10.5123 16.5505C8.68549 16.5505 6.93346 15.8484 5.64168 14.5986C4.3499 13.3487 3.62418 11.6536 3.62418 9.88603Z"
-                          fill="#858585" stroke="white" />
-                      </svg>
-                    </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+              <div class="col-10 d-flex justify-content-end">
+                <div class="header-search pe-4">
+                  <div class="input-group d-flex gap-3">
+                    <form class="form-inline search-field-form my-2">
+                      <div class="position-relative">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                          <path
+                            d="M21.6597 19.0942L17.7564 15.3287C19.0158 13.7764 19.6991 11.8595 19.6966 9.88603C19.6966 8.12854 19.1579 6.41052 18.1487 4.94922C17.1396 3.48792 15.7052 2.34897 14.027 1.67641C12.3488 1.00385 10.5022 0.827877 8.72059 1.17075C6.93903 1.51362 5.30256 2.35993 4.01812 3.60266C2.73369 4.84539 1.85898 6.42873 1.5046 8.15245C1.15023 9.87617 1.3321 11.6629 2.02724 13.2866C2.72237 14.9103 3.89953 16.2981 5.40987 17.2745C6.9202 18.2509 8.69588 18.7721 10.5123 18.7721C12.552 18.7745 14.5333 18.1134 16.1377 16.8949L20.0295 20.6714C20.1362 20.7755 20.2632 20.8582 20.4031 20.9146C20.543 20.971 20.693 21 20.8446 21C20.9961 21 21.1462 20.971 21.2861 20.9146C21.426 20.8582 21.553 20.7755 21.6597 20.6714C21.7673 20.5682 21.8527 20.4453 21.911 20.31C21.9693 20.1746 21.9993 20.0294 21.9993 19.8828C21.9993 19.7362 21.9693 19.591 21.911 19.4556C21.8527 19.3203 21.7673 19.1974 21.6597 19.0942ZM3.62418 9.88603C3.62418 8.56791 4.02817 7.2794 4.78505 6.18342C5.54193 5.08745 6.61771 4.23324 7.87636 3.72882C9.135 3.22439 10.52 3.09241 11.8562 3.34957C13.1923 3.60672 14.4197 4.24145 15.383 5.1735C16.3463 6.10555 17.0024 7.29306 17.2681 8.58585C17.5339 9.87864 17.3975 11.2186 16.8762 12.4364C16.3548 13.6542 15.472 14.6951 14.3392 15.4274C13.2064 16.1597 11.8747 16.5505 10.5123 16.5505C8.68549 16.5505 6.93346 15.8484 5.64168 14.5986C4.3499 13.3487 3.62418 11.6536 3.62418 9.88603Z"
+                            fill="#858585" stroke="white" />
+                        </svg>
+                      </div>
 
-                  </form>
-                  <div class="form-inline search-field-form my-2">
-                    <div class="position-relative">
-                      <input type="text" class="form-control" placeholder="Location">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <circle cx="12" cy="12" r="3" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
-                        <circle cx="12" cy="12" r="8" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M12 2V4" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M12 20V22" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M20 12H22" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M2 12H4" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </div>
+                    </form>
+                    <div class="form-inline search-field-form my-2">
+                      <div class="position-relative">
+                        <input type="text" class="form-control" placeholder="Location">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <circle cx="12" cy="12" r="3" stroke="#858585" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <circle cx="12" cy="12" r="8" stroke="#858585" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path d="M12 2V4" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M12 20V22" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M20 12H22" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M2 12H4" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
 
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="language-dropdown d-flex align-items-center">
-                <div class="dropdown">
-                  <img src="./assets/images/lang-icon.png" alt="icon" class="img-fluid">
-                  <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">German</button>
-                  <ul class="dropdown-menu mt-3">
-                    <li><a href="#" class="dropdown-item">English</a></li>
-                    <li><a href="#" class="dropdown-item">French</a></li>
-                    <li><a href="#" class="dropdown-item">Arabic</a></li>
+                <div class="language-dropdown d-flex align-items-center">
+                  <div class="dropdown">
+                    <img src="./assets/images/lang-icon.png" alt="icon" class="img-fluid">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">German</button>
+                    <ul class="dropdown-menu mt-3">
+                      <li><a href="#" class="dropdown-item">English</a></li>
+                      <li><a href="#" class="dropdown-item">French</a></li>
+                      <li><a href="#" class="dropdown-item">Arabic</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="btn-wrapper d-flex align-items-center">
+                  <ul class="list-unstyled mb-0 d-flex gap-2">
+                    <li class="ms-3">
+                      <a href="" class="btn btn-outline-secondary btn-sign-in d-inline-flex align-items-center px-4">Log
+                        In</a>
+                    </li>
+                    <li class="">
+                      <a href="" class="btn btn-primary btn-sign-up d-inline-flex align-items-center px-4">Register</a>
+                    </li>
                   </ul>
                 </div>
-              </div>
-              <div class="btn-wrapper d-flex align-items-center">
-                <ul class="list-unstyled mb-0 d-flex gap-2">
-                  <li class="ms-3">
-                    <a href="" class="btn btn-outline-secondary btn-sign-in d-inline-flex align-items-center px-4">Log
-                      In</a>
-                  </li>
-                  <li class="">
-                    <a href="" class="btn btn-primary btn-sign-up d-inline-flex align-items-center px-4">Register</a>
-                  </li>
-                </ul>
               </div>
             </div>
           </nav>
@@ -131,7 +139,7 @@
                   </a>
                 </div>
               </div>
-              <div class="swiper-pagination"></div>
+              <!-- <div class="swiper-pagination"></div> -->
             </div>
             <div class="pagination">
               <div class="hero-button-next position-absolute">
@@ -486,18 +494,18 @@
                 <div class="swiper-slide">
                   <div class="col">
                     <div class="card border-0">
-                      <div class="row align-items-center">
-                        <div class="col-md-3">
+                      <div class="row align-items-center gap-md-4 gap-lg-0">
+                        <div class="col-md-12 col-lg-3 text-center">
                           <img src="./assets/images/belando.png" class="img-fluid" alt="image">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-lg-5 col-md-12">
                           <p class="cb-details mb-2">Get Flat 50% OFF on Orders worth ₹1299 and Above</p>
                           <div class="cb-offer-text d-flex gap-1 align-items-center">
                             <img src="./assets/images/cb-text-img.png" alt="cb-iamge">
                             <p class="cb-text mb-0">Upto CHF 2.00 Cashback</p>
                           </div>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center">
                           <div class="card-action">
                             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Get Discount</a>
                           </div>
@@ -509,18 +517,18 @@
                 <div class="swiper-slide">
                   <div class="col">
                     <div class="card border-0">
-                      <div class="row align-items-center">
-                        <div class="col-md-3">
+                      <div class="row align-items-center gap-md-4 gap-lg-0">
+                        <div class="col-md-12 col-lg-3 text-center">
                           <img src="./assets/images/ajio.png" class="img-fluid" alt="image">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-lg-5 col-md-12">
                           <p class="cb-details mb-2">Get upto 50 % off on Girls waer</p>
                           <div class="cb-offer-text d-flex gap-1 align-items-center">
                             <img src="./assets/images/cb-text-img.png" alt="cb-iamge">
                             <p class="cb-text mb-0">Upto CHF 2.00 Cashback</p>
                           </div>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center">
                           <div class="card-action">
                             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Get Discount</a>
                           </div>
@@ -532,18 +540,18 @@
                 <div class="swiper-slide">
                   <div class="col">
                     <div class="card border-0">
-                      <div class="row align-items-center">
-                        <div class="col-md-3">
+                      <div class="row align-items-center gap-md-4 gap-lg-0">
+                        <div class="col-lg-3 col-md-12 text-center">
                           <img src="./assets/images/belando.png" class="img-fluid" alt="image">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-lg-5 col-md-12">
                           <p class="cb-details mb-2">Get Flat 50% OFF on Orders worth ₹1299 and Above</p>
                           <div class="cb-offer-text d-flex gap-1 align-items-center">
                             <img src="./assets/images/cb-text-img.png" alt="cb-iamge">
                             <p class="cb-text mb-0">Upto CHF 2.00 Cashback</p>
                           </div>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center">
                           <div class="card-action">
                             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Get Discount</a>
                           </div>
@@ -555,18 +563,18 @@
                 <div class="swiper-slide">
                   <div class="col">
                     <div class="card border-0">
-                      <div class="row align-items-center">
-                        <div class="col-md-3">
+                      <div class="row align-items-center gap-md-4 gap-lg-0">
+                        <div class="col-lg-3 col-md-12 text-center">
                           <img src="./assets/images/ajio.png" class="img-fluid" alt="image">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-lg-5 col-md-12">
                           <p class="cb-details mb-2">Get upto 50 % off on Girls waer</p>
                           <div class="cb-offer-text d-flex gap-1 align-items-center">
                             <img src="./assets/images/cb-text-img.png" alt="cb-iamge">
                             <p class="cb-text mb-0">Upto CHF 2.00 Cashback</p>
                           </div>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center">
                           <div class="card-action">
                             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Get Discount</a>
                           </div>
@@ -578,18 +586,18 @@
                 <div class="swiper-slide">
                   <div class="col">
                     <div class="card border-0">
-                      <div class="row align-items-center">
-                        <div class="col-md-3">
+                      <div class="row align-items-center gap-md-4 gap-lg-0">
+                        <div class="col-lg-3 col-md-12 text-center">
                           <img src="./assets/images/belando.png" class="img-fluid" alt="image">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-lg-5 col-md-12">
                           <p class="cb-details mb-2">Get Flat 50% OFF on Orders worth ₹1299 and Above</p>
                           <div class="cb-offer-text d-flex gap-1 align-items-center">
                             <img src="./assets/images/cb-text-img.png" alt="cb-iamge">
                             <p class="cb-text mb-0">Upto CHF 2.00 Cashback</p>
                           </div>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center">
                           <div class="card-action">
                             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Get Discount</a>
                           </div>
@@ -601,18 +609,18 @@
                 <div class="swiper-slide">
                   <div class="col">
                     <div class="card border-0">
-                      <div class="row align-items-center">
-                        <div class="col-md-3">
+                      <div class="row align-items-center gap-md-4 gap-lg-0">
+                        <div class="col-lg-3 col-md-12 text-center">
                           <img src="./assets/images/ajio.png" class="img-fluid" alt="image">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-lg-5 col-md-12">
                           <p class="cb-details mb-2">Get upto 50 % off on Girls waer</p>
                           <div class="cb-offer-text d-flex gap-1 align-items-center">
                             <img src="./assets/images/cb-text-img.png" alt="cb-iamge">
                             <p class="cb-text mb-0">Upto CHF 2.00 Cashback</p>
                           </div>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center">
                           <div class="card-action">
                             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Get Discount</a>
                           </div>
@@ -624,18 +632,18 @@
                 <div class="swiper-slide">
                   <div class="col">
                     <div class="card border-0">
-                      <div class="row align-items-center">
-                        <div class="col-md-3">
+                      <div class="row align-items-center gap-md-4 gap-lg-0">
+                        <div class="col-lg-3 col-md-12 text-center">
                           <img src="./assets/images/belando.png" class="img-fluid" alt="image">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-lg-5 col-md-12">
                           <p class="cb-details mb-2">Get Flat 50% OFF on Orders worth ₹1299 and Above</p>
                           <div class="cb-offer-text d-flex gap-1 align-items-center">
                             <img src="./assets/images/cb-text-img.png" alt="cb-iamge">
                             <p class="cb-text mb-0">Upto CHF 2.00 Cashback</p>
                           </div>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center">
                           <div class="card-action">
                             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Get Discount</a>
                           </div>
@@ -647,18 +655,18 @@
                 <div class="swiper-slide">
                   <div class="col">
                     <div class="card border-0">
-                      <div class="row align-items-center">
-                        <div class="col-md-3">
+                      <div class="row align-items-center gap-md-4 gap-lg-0">
+                        <div class="col-lg-3 col-md-12 text-center">
                           <img src="./assets/images/ajio.png" class="img-fluid" alt="image">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-lg-5 col-md-12">
                           <p class="cb-details mb-2">Get upto 50 % off on Girls waer</p>
                           <div class="cb-offer-text d-flex gap-1 align-items-center">
                             <img src="./assets/images/cb-text-img.png" alt="cb-iamge">
                             <p class="cb-text mb-0">Upto CHF 2.00 Cashback</p>
                           </div>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center">
                           <div class="card-action">
                             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Get Discount</a>
                           </div>
@@ -1466,17 +1474,15 @@
     </section>
 
     <!-- How it work -->
-    <section class="how-it-works position-relative mt-4" style="background-image: url(./assets/images/mid-banner.png);">
+    <section class="how-it-works mt-4 p-5" style="background-image: url(./assets/images/mid-banner.png);">
       <div class="container">
-        <div class="hiw-wrapper position-absolute">
+        <div class="hiw-wrapper ms-5">
           <div class="hiw-heading-wrapper">
             <p class="hiw-heading">Cashback with every purchase</p>
           </div>
           <div class="hiw-content-wrapper">
             <div class="hiw-content d-flex gap-4 mb-4">
-              <div class="brows-content p-2">
-                <img src="./assets/images/brows.png" alt="img" class="img-fluid">
-              </div>
+              <img src="./assets/images/how-to-login.png" alt="img" class="img-fluid">
               <div class="hiw-details-wrapper">
                 <p class="hiw-title mb-0">1. Browse</p>
                 <p class="hiw-text mb-0">Browse Cashback and choose from thousand of stores.</p>
@@ -1509,11 +1515,13 @@
                 <p class="hiw-text mb-0">Request payment and get paid via bank transfer, PayPal or gift voucher.</p>
               </div>
             </div>
+            <div class="vertical-row"></div>
           </div>
           <div class="card-action mt-3">
             <a href="#" class="btn btn-primary shadow-none card-nav-btn">Registration for free</a>
           </div>
         </div>
+
       </div>
     </section>
 

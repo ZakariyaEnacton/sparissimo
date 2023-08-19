@@ -12,6 +12,28 @@ var swiper = new Swiper(".banner-swwiper", {
 var swiper = new Swiper(".card-swiper", {
   spaceBetween: 30,
   slidesPerView: 5,
+  breakpoints: {
+    0: {
+      spaceBetween: 30,
+      slidesPerView: 1.5,
+    },
+    768: {
+      spaceBetween: 30,
+      slidesPerView: 3.2,
+    },
+    1024: {
+      spaceBetween: 30,
+      slidesPerView: 4,
+    },
+    1280: {
+      spaceBetween: 30,
+      slidesPerView: 4.5,
+    },
+    1320: {
+      spaceBetween: 30,
+      slidesPerView: 5,
+    },
+  },
   navigation: {
     nextEl: ".card-button-next",
     prevEl: ".card-button-prev",
@@ -42,6 +64,28 @@ var swiper = new Swiper(".deals-swiper", {
     nextEl: ".d-card-button-next",
     prevEl: ".d-card-button-prev",
   },
+  breakpoints: {
+    0: {
+      spaceBetween: 30,
+      slidesPerView: 1.5,
+    },
+    768: {
+      spaceBetween: 30,
+      slidesPerView: 3.2,
+    },
+    1024: {
+      spaceBetween: 30,
+      slidesPerView: 4,
+    },
+    1280: {
+      spaceBetween: 30,
+      slidesPerView: 4.5,
+    },
+    1320: {
+      spaceBetween: 30,
+      slidesPerView: 5,
+    },
+  },
 });
 var swiper = new Swiper(".earn-cb-swiper", {
   spaceBetween: 30,
@@ -50,6 +94,28 @@ var swiper = new Swiper(".earn-cb-swiper", {
     nextEl: ".e-card-button-next",
     prevEl: ".e-card-button-prev",
   },
+  breakpoints: {
+    0: {
+      spaceBetween: 30,
+      slidesPerView: 1.5,
+    },
+    768: {
+      spaceBetween: 30,
+      slidesPerView: 3.2,
+    },
+    1024: {
+      spaceBetween: 30,
+      slidesPerView: 4,
+    },
+    1280: {
+      spaceBetween: 30,
+      slidesPerView: 4.5,
+    },
+    1320: {
+      spaceBetween: 30,
+      slidesPerView: 5,
+    },
+  },
 });
 var swiper = new Swiper(".cb-offers-swiper", {
   spaceBetween: 30,
@@ -57,5 +123,27 @@ var swiper = new Swiper(".cb-offers-swiper", {
   navigation: {
     nextEl: ".cb-card-button-next",
     prevEl: ".cb-card-button-prev",
+  },
+  breakpoints: {
+    0: {
+      spaceBetween: 30,
+      slidesPerView: 1.5,
+    },
+    768: {
+      spaceBetween: 30,
+      slidesPerView: 3.2,
+    },
+    1024: {
+      spaceBetween: 30,
+      slidesPerView: 4,
+    },
+    1280: {
+      spaceBetween: 30,
+      slidesPerView: 4.5,
+    },
+    1320: {
+      spaceBetween: 30,
+      slidesPerView: 5,
+    },
   },
 });

@@ -27,12 +27,13 @@
     }
     .cb-details {
       height: 3.5rem;
-      font-weight: 600;
-      text-overflow: clip;
+      font-weight: 500;
       overflow: hidden;
       word-wrap: break-word;
-      display: block;
+      display: -webkit-box;
       line-height: 1.625rem;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
     }
   }
 }
