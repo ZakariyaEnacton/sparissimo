@@ -22,6 +22,7 @@
       .brows-content {
         border: 1.5px solid $purple;
         border-radius: 999px;
+        background-color: var(--white);
       }
       .hiw-title {
         font-size: 1.125rem;
@@ -32,6 +33,14 @@
         line-height: 1.25rem;
         color: var(--secondary-text);
       }
+    }
+    .vertcale-row {
+      background-color: black;
+      height: 1px;
+      width: 100px;
+      transform: rotate(90deg);
+      top: 10%;
+      left: 0;
     }
   }
 }

@@ -18,6 +18,12 @@
       }
     }
     .card-body {
+      .card-title {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 3rem;
+        line-height: 1.625rem;
+      }
       .card-text {
         color: var(--secondary-text);
         font-size: 0.75rem;

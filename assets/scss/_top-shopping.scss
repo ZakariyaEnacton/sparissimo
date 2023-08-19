@@ -25,5 +25,14 @@
         }
       }
     }
+    .cb-details {
+      height: 3.5rem;
+      font-weight: 600;
+      text-overflow: clip;
+      overflow: hidden;
+      word-wrap: break-word;
+      display: block;
+      line-height: 1.625rem;
+    }
   }
 }
